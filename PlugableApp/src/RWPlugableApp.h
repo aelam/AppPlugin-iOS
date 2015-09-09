@@ -20,6 +20,8 @@
 - (void)installApp;
 - (void)uninstallApp;
 
+- (id)webviewScripts;
+
 
 @optional
 
