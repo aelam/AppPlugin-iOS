@@ -9,6 +9,8 @@
 #import "SAWebViewController.h"
 #import "UIWebView+Ext.h"
 
+#define JSActionScheme @"JSAction"
+
 @interface SAWebViewController () <UIWebViewDelegate>
 
 @end
@@ -43,7 +45,9 @@
 
 // MARK: UIWebViewDelegate
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
-    
+    if ([[[[request URL] scheme] uppercaseString] isEqualToString:[JSActionScheme uppercaseString]]) {
+        
+    }
     
     return YES;
 }
@@ -52,15 +56,20 @@
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-    [webView loadExtendJS];
-    [webView stringByEvaluatingJavaScriptFromString:@"EMBridgeReady()"];
+    [self loadExtendJS];
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
     
 }
 
+- (void)loadExtendJS {
+    NSString *jsPath = [[NSBundle mainBundle] pathForResource:@"EMBridge" ofType:@"js"];
+    NSString *js = [NSString stringWithContentsOfFile:jsPath encoding:NSUTF8StringEncoding error:nil];
+    [[self.webView webViewContext] evaluateScript:js];
+    [[self.webView webViewContext] evaluateScript:@"EMBridgeReady()"];
 
+}
 
 
 @end

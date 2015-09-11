@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940692A11BA2C3C400D17B67 /* UIViewController+BarColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 940692A01BA2C3C400D17B67 /* UIViewController+BarColor.m */; };
+		940692A61BA2C46000D17B67 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 940692A51BA2C46000D17B67 /* UIColor+HexString.m */; };
+		940692A91BA2C4F600D17B67 /* UINavigationBar+EMGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 940692A81BA2C4F600D17B67 /* UINavigationBar+EMGradient.m */; };
+		940692AE1BA2C51300D17B67 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 940692AB1BA2C51300D17B67 /* README.md */; };
+		940692AF1BA2C51300D17B67 /* UIImage+JTKGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 940692AD1BA2C51300D17B67 /* UIImage+JTKGradient.m */; };
+		940692B21BA2C63700D17B67 /* JSAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 940692B11BA2C63700D17B67 /* JSAction.m */; };
+		940692B51BA2CADD00D17B67 /* JSActionModuleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 940692B41BA2CADD00D17B67 /* JSActionModuleLoader.m */; };
+		940692B81BA2DF2B00D17B67 /* JSActionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 940692B71BA2DF2B00D17B67 /* JSActionModule.m */; };
+		940692BB1BA2E82700D17B67 /* JSActionModuleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 940692BA1BA2E82700D17B67 /* JSActionModuleBase.m */; };
 		94AC08B71B9FD2B8006BE1B9 /* SAWebApp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 94AC08B61B9FD2B8006BE1B9 /* SAWebApp.h */; };
 		94AC08B91B9FD2B8006BE1B9 /* SAWebApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AC08B81B9FD2B8006BE1B9 /* SAWebApp.m */; };
 		94AC08BF1B9FD2B8006BE1B9 /* libSAWebApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AC08B41B9FD2B8006BE1B9 /* libSAWebApp.a */; };
@@ -133,6 +142,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9406929F1BA2C3C400D17B67 /* UIViewController+BarColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarColor.h"; sourceTree = "<group>"; };
+		940692A01BA2C3C400D17B67 /* UIViewController+BarColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarColor.m"; sourceTree = "<group>"; };
+		940692A41BA2C46000D17B67 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		940692A51BA2C46000D17B67 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		940692A71BA2C4F600D17B67 /* UINavigationBar+EMGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+EMGradient.h"; sourceTree = "<group>"; };
+		940692A81BA2C4F600D17B67 /* UINavigationBar+EMGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+EMGradient.m"; sourceTree = "<group>"; };
+		940692AB1BA2C51300D17B67 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		940692AC1BA2C51300D17B67 /* UIImage+JTKGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTKGradient.h"; sourceTree = "<group>"; };
+		940692AD1BA2C51300D17B67 /* UIImage+JTKGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTKGradient.m"; sourceTree = "<group>"; };
+		940692B01BA2C63700D17B67 /* JSAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAction.h; sourceTree = "<group>"; };
+		940692B11BA2C63700D17B67 /* JSAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAction.m; sourceTree = "<group>"; };
+		940692B31BA2CADD00D17B67 /* JSActionModuleLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSActionModuleLoader.h; sourceTree = "<group>"; };
+		940692B41BA2CADD00D17B67 /* JSActionModuleLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleLoader.m; sourceTree = "<group>"; };
+		940692B61BA2DF2B00D17B67 /* JSActionModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSActionModule.h; sourceTree = "<group>"; };
+		940692B71BA2DF2B00D17B67 /* JSActionModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSActionModule.m; sourceTree = "<group>"; };
+		940692B91BA2E82700D17B67 /* JSActionModuleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSActionModuleBase.h; sourceTree = "<group>"; };
+		940692BA1BA2E82700D17B67 /* JSActionModuleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleBase.m; sourceTree = "<group>"; };
 		94AC08B41B9FD2B8006BE1B9 /* libSAWebApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAWebApp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		94AC08B61B9FD2B8006BE1B9 /* SAWebApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAWebApp.h; sourceTree = "<group>"; };
 		94AC08B81B9FD2B8006BE1B9 /* SAWebApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAWebApp.m; sourceTree = "<group>"; };
@@ -270,11 +296,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940692A21BA2C46000D17B67 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				940692AA1BA2C51300D17B67 /* UIImageGradient-master */,
+				940692A31BA2C46000D17B67 /* UIColor+HexString */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		940692A31BA2C46000D17B67 /* UIColor+HexString */ = {
+			isa = PBXGroup;
+			children = (
+				940692A41BA2C46000D17B67 /* UIColor+HexString.h */,
+				940692A51BA2C46000D17B67 /* UIColor+HexString.m */,
+			);
+			path = "UIColor+HexString";
+			sourceTree = "<group>";
+		};
+		940692AA1BA2C51300D17B67 /* UIImageGradient-master */ = {
+			isa = PBXGroup;
+			children = (
+				940692AB1BA2C51300D17B67 /* README.md */,
+				940692AC1BA2C51300D17B67 /* UIImage+JTKGradient.h */,
+				940692AD1BA2C51300D17B67 /* UIImage+JTKGradient.m */,
+			);
+			path = "UIImageGradient-master";
+			sourceTree = "<group>";
+		};
 		94AC08B51B9FD2B8006BE1B9 /* SAWebApp */ = {
 			isa = PBXGroup;
 			children = (
 				94AC08B61B9FD2B8006BE1B9 /* SAWebApp.h */,
 				94AC08B81B9FD2B8006BE1B9 /* SAWebApp.m */,
+				940692A21BA2C46000D17B67 /* Vendor */,
 				94AC08CB1B9FD2E2006BE1B9 /* res */,
 				94AC08CC1B9FD2E2006BE1B9 /* src */,
 			);
@@ -316,6 +371,16 @@
 				94AC09031BA01B69006BE1B9 /* SAWebViewController+Ext.m */,
 				94AC09061BA03708006BE1B9 /* UIWebView+Ext.h */,
 				94AC09071BA03708006BE1B9 /* UIWebView+Ext.m */,
+				9406929F1BA2C3C400D17B67 /* UIViewController+BarColor.h */,
+				940692A01BA2C3C400D17B67 /* UIViewController+BarColor.m */,
+				940692B01BA2C63700D17B67 /* JSAction.h */,
+				940692B11BA2C63700D17B67 /* JSAction.m */,
+				940692B61BA2DF2B00D17B67 /* JSActionModule.h */,
+				940692B71BA2DF2B00D17B67 /* JSActionModule.m */,
+				940692B91BA2E82700D17B67 /* JSActionModuleBase.h */,
+				940692BA1BA2E82700D17B67 /* JSActionModuleBase.m */,
+				940692B31BA2CADD00D17B67 /* JSActionModuleLoader.h */,
+				940692B41BA2CADD00D17B67 /* JSActionModuleLoader.m */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -323,6 +388,8 @@
 		94AC08D01B9FD644006BE1B9 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				940692A71BA2C4F600D17B67 /* UINavigationBar+EMGradient.h */,
+				940692A81BA2C4F600D17B67 /* UINavigationBar+EMGradient.m */,
 				94AC08D11B9FD65B006BE1B9 /* NSURL+Extensions.h */,
 				94AC08D21B9FD65B006BE1B9 /* NSURL+Extensions.m */,
 			);
@@ -815,10 +882,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940692B81BA2DF2B00D17B67 /* JSActionModule.m in Sources */,
 				94AC08B91B9FD2B8006BE1B9 /* SAWebApp.m in Sources */,
+				940692B21BA2C63700D17B67 /* JSAction.m in Sources */,
+				940692AF1BA2C51300D17B67 /* UIImage+JTKGradient.m in Sources */,
 				94AC09081BA03708006BE1B9 /* UIWebView+Ext.m in Sources */,
 				94AC09041BA01B69006BE1B9 /* SAWebViewController+Ext.m in Sources */,
 				94AC08D31B9FD65B006BE1B9 /* NSURL+Extensions.m in Sources */,
+				940692A61BA2C46000D17B67 /* UIColor+HexString.m in Sources */,
+				940692A91BA2C4F600D17B67 /* UINavigationBar+EMGradient.m in Sources */,
+				940692BB1BA2E82700D17B67 /* JSActionModuleBase.m in Sources */,
+				940692AE1BA2C51300D17B67 /* README.md in Sources */,
+				940692B51BA2CADD00D17B67 /* JSActionModuleLoader.m in Sources */,
+				940692A11BA2C3C400D17B67 /* UIViewController+BarColor.m in Sources */,
 				94AC08CF1B9FD2FB006BE1B9 /* SAWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1314,6 +1390,7 @@
 				94AC08FC1BA01A9A006BE1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94AC08FD1BA01A9A006BE1B9 /* Build configuration list for PBXNativeTarget "SAWebAppDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -1322,6 +1399,7 @@
 				94AC08FF1BA01A9A006BE1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94E7DE261B789D5600A6FCC0 /* Build configuration list for PBXProject "AppSettings" */ = {
 			isa = XCConfigurationList;

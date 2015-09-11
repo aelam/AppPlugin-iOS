@@ -11,7 +11,7 @@
 
 @interface UIWebView (Ext)
 
-- (void)loadExtendJS;
 - (JSContext *)webViewContext;
+- (JSValue *)webViewBridge;
 
 @end
