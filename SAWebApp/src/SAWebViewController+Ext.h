@@ -8,6 +8,8 @@
 
 #import "SAWebViewController.h"
 
+@class JSContext;
+
 @interface SAWebViewController ()
 
 
@@ -15,6 +17,8 @@
 @end
 
 @interface SAWebViewController (Ext)
+
+- (JSContext *)webViewContext;
 
 - (void)loadWebViewActionJS;
 

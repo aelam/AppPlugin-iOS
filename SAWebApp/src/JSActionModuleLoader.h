@@ -10,11 +10,10 @@
 #import "SAWebViewController.h"
 
 @class JSActionModule;
+@class JSContext;
 
 @protocol JSActionModule <NSObject>
 
-- (void)installJSModule:(JSActionModule *)module;
-- (void)uninstallJSModule:(JSActionModule *)module;
 
 
 @end
@@ -25,6 +24,13 @@
 
 - (void)attachToWebViewController:(SAWebViewController *)webViewController;
 - (void)deattachToWebViewController:(SAWebViewController *)webViewController;
+
+- (void)installJSModule:(JSActionModule *)module;
+- (void)uninstallJSModule:(JSActionModule *)module;
+- (void)installJSModules:(NSArray *)modules;
+- (void)uninstallJSModules:(NSArray *)modules;
+
+- (JSContext *)webViewContext;
 
 @end
 

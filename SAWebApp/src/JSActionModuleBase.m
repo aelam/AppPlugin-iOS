@@ -11,6 +11,21 @@
 @implementation JSActionModuleBase
 
 
+- (void)attachActionsWithWebViewContext:(JSContext *)webViewContext {
+    JSContext *context = [self webViewContext];
+    JSValue *goods = [context objectForKeyedSubscript:@"goods"];
+    __weak __typeof(self)weakSelf = self;
+    
+    NSInteger (^changeNavigationBarColors)(NSString *, NSString *) = ^NSInteger(NSString *colors, NSString *type) {
+//        [weakSelf changeNavigationBarColor:colors];
+        
+        return 1;
+    };
+    
+    [goods setObject:changeNavigationBarColors forKeyedSubscript:@"changeNavigationBarColors"];
+    
+}
+
 //- (void)registerChangeNavigationBarColors {
 //    JSContext *context = [self webViewContext];
 //    JSValue *goods = [context objectForKeyedSubscript:@"goods"];

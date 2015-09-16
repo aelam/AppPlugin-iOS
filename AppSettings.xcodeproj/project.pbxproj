@@ -32,6 +32,7 @@
 		94AC09051BA027EE006BE1B9 /* libSAWebApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AC08B41B9FD2B8006BE1B9 /* libSAWebApp.a */; };
 		94AC09081BA03708006BE1B9 /* UIWebView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AC09071BA03708006BE1B9 /* UIWebView+Ext.m */; };
 		94AC090A1BA0375B006BE1B9 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AC09091BA0375B006BE1B9 /* JavaScriptCore.framework */; };
+		94B255DF1BA82E1900A6BB59 /* JSActionModuleStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B255DE1BA82E1900A6BB59 /* JSActionModuleStock.m */; };
 		94E7DE311B789D5600A6FCC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E7DE301B789D5600A6FCC0 /* main.m */; };
 		94E7DE341B789D5600A6FCC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E7DE331B789D5600A6FCC0 /* AppDelegate.m */; };
 		94E7DE371B789D5600A6FCC0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E7DE361B789D5600A6FCC0 /* MasterViewController.m */; };
@@ -188,6 +189,8 @@
 		94AC09061BA03708006BE1B9 /* UIWebView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Ext.h"; sourceTree = "<group>"; };
 		94AC09071BA03708006BE1B9 /* UIWebView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Ext.m"; sourceTree = "<group>"; };
 		94AC09091BA0375B006BE1B9 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		94B255DD1BA82E1900A6BB59 /* JSActionModuleStock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSActionModuleStock.h; sourceTree = "<group>"; };
+		94B255DE1BA82E1900A6BB59 /* JSActionModuleStock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleStock.m; sourceTree = "<group>"; };
 		94E7DE2B1B789D5600A6FCC0 /* AppSettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppSettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E7DE2F1B789D5600A6FCC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E7DE301B789D5600A6FCC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -381,6 +384,9 @@
 				940692BA1BA2E82700D17B67 /* JSActionModuleBase.m */,
 				940692B31BA2CADD00D17B67 /* JSActionModuleLoader.h */,
 				940692B41BA2CADD00D17B67 /* JSActionModuleLoader.m */,
+				94B255DD1BA82E1900A6BB59 /* JSActionModuleStock.h */,
+				94B255DE1BA82E1900A6BB59 /* JSActionModuleStock.m */,
+				94B255E01BA9016500A6BB59 /* BaseModule */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -435,6 +441,13 @@
 				94AC08F71BA01A9A006BE1B9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94B255E01BA9016500A6BB59 /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModule;
 			sourceTree = "<group>";
 		};
 		94E7DE221B789D5600A6FCC0 = {
@@ -884,6 +897,7 @@
 			files = (
 				940692B81BA2DF2B00D17B67 /* JSActionModule.m in Sources */,
 				94AC08B91B9FD2B8006BE1B9 /* SAWebApp.m in Sources */,
+				94B255DF1BA82E1900A6BB59 /* JSActionModuleStock.m in Sources */,
 				940692B21BA2C63700D17B67 /* JSAction.m in Sources */,
 				940692AF1BA2C51300D17B67 /* UIImage+JTKGradient.m in Sources */,
 				94AC09081BA03708006BE1B9 /* UIWebView+Ext.m in Sources */,

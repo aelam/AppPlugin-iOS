@@ -8,6 +8,7 @@
 
 #import "JSActionModuleLoader.h"
 #import "SAWebViewController.h"
+#import "SAWebViewController+Ext.h"
 
 @interface JSActionModuleLoader ()
 
@@ -42,12 +43,25 @@
     [self.modules removeObject:module];
 }
 
+
+- (void)installJSModules:(NSArray *)modules {
+    [self.modules addObjectsFromArray:modules];
+}
+
+- (void)uninstallJSModules:(NSArray *)modules {
+    [self.modules removeObjectsInArray:modules];
+}
+
 - (void)attachToWebViewController:(SAWebViewController *)webViewController {
-    
+    [webViewController webViewContext];
 }
 
 - (void)deattachToWebViewController:(SAWebViewController *)webViewController {
     
+}
+
+- (JSContext *)webViewContext {
+    return [JSActionModuleLoader defaultJSActionModuleLoader].webViewContext;
 }
 
 @end

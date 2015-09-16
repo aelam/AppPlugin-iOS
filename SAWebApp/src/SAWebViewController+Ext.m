@@ -7,8 +7,8 @@
 //
 
 #import "SAWebViewController+Ext.h"
-#import <JavaScriptCore/JavaScriptCore.h>
 #import "UIViewController+BarColor.h"
+#import <JavaScriptCore/JavaScriptCore.h>
 
 @interface SAWebViewController ()
 

@@ -7,7 +7,16 @@
 //
 
 #import "JSActionModule.h"
+#import "JSActionModuleLoader.h"
 
 @implementation JSActionModule
+
+- (void)attachActionsWithWebViewContext:(JSContext *)webViewContext {
+    
+}
+
+- (JSContext *)webViewContext {
+    return [JSActionModuleLoader defaultJSActionModuleLoader].webViewContext;
+}
 
 @end

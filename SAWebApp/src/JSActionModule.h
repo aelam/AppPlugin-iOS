@@ -7,9 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <JavaScriptCore/JavaScriptCore.h>
 
 @interface JSActionModule : NSObject
 
 
+- (void)attachActionsWithWebViewContext:(JSContext *)webViewContext;
+
+- (JSContext *)webViewContext;
 
 @end

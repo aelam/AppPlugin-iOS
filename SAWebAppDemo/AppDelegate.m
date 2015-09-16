@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "JSActionModuleLoader.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    [JSActionModuleLoader defaultJSActionModuleLoader];
+    
     // Override point for customization after application launch.
     return YES;
 }
